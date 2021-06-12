@@ -1,0 +1,370 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+	outline: none;
+	text-decoration: none;
+	list-style: none;
+	color: #fff;
+}
+body{
+	height: 3495px;
+}
+.section_header{
+	height: 101px;
+	background-color: #19547a;
+	box-shadow: 0px 3px 0px 4px #6ab2e0;
+	display: flex;
+	align-items: center;
+}
+ul,li a{
+	font-family: Roboto;
+	font-size: 18px;
+	display: flex;
+	align-items: center;
+	padding: 0px 0px 0px 24px;
+}
+a:hover{
+	color: #f38383;
+}
+.section_glstr{
+	height: 502px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.section_glstr_p1{
+	font-size: 24px;
+	font-family: Roboto;
+	font-weight: 590;
+	text-align: center;
+	color: #000;
+	margin-top: 28px;
+}
+.slider_otriv{
+	height: 710px;
+	background-color: #19547a;
+}
+.otziv_cont_text{
+	display: flex;
+	height: 180px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.otziv_cont_text p{
+	padding: 19px 35px;
+	border: #aadabc;
+	background-color: #de6d2f;
+	border-radius: 5px;
+	text-transform: uppercase;
+}
+#slider{
+	margin: 0 auto;
+	text-align: center;
+	height: 506px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#slider input[type=radio]{
+	display: none;
+}
+#slider label{
+	cursor: pointer;
+}
+#slides{
+	background-color: #de6d2f;
+	position: relative;
+	z-index: 1;
+	width: 700px;
+	height: 437px;
+	align-items: center;
+	text-align: left;
+	display: flex;
+	justify-content: center;
+	border-radius: 5px;
+}
+#overflow{
+	width: 100%;
+	overflow: hidden;
+}
+#slide1:checked ~ #slides .inner{
+	margin-left: 0;
+}
+#slide2:checked ~ #slides .inner{
+	margin-left: -100%;
+}
+#slides .inner{
+	transition: all .6s ease;
+	width: 400%; 
+}
+#slides .slide{
+	width: 25%;
+	float: left;
+}
+.slide-content p{
+	margin-left: 40px;
+}
+.redr_slide_p1{
+	margin-top: 100px;
+	margin-bottom: -70px;
+	font-size: 22px;
+}
+.redr_slide_p2{
+	margin-top: 11px;
+	margin-bottom: 11px;
+	font-size: 22px;	
+}
+.section_rezume{
+	height: 220px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.section_rezume a button{
+	padding: 11px 16px;
+	background-color: #de6d2f;
+	cursor: pointer;
+	border-radius: 5px;
+	font-family: Roboto;
+	font-size: 24px;
+}
+.section_rezume button:hover{
+	background-color: #e75c10;
+	font-size: 25px;
+}
+.section_inf_p1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.section_inf_p2{
+	font-family: Roboto;
+	font-size: 24px;
+	margin-top: 25px;
+	margin-bottom: 45px;
+}
+.section_inf_p3{
+	font-family: Roboto;
+	font-size: 18px;	
+	line-height: 35px;
+}
+.section_Bakansii{
+	height: 1250px;
+}
+.Bakansii_header{
+	height: 60px;
+	background-color: #19547a;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 24px;
+	font-family: Roboto;
+	font-weight: 590;
+}
+.Bakansii_bloc1{
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+.Bakansii_bloc1_p1{
+	font-size: 24px;
+	font-family: Roboto;
+	font-weight: 590;
+	margin: 20px 0px 20px 0;
+}
+.Bakansii_bloc1_p2{
+	font-size: 18px;
+	font-family: Roboto;
+	text-align: center;	
+}
+.Bakansii_bloc1_k{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 45px;
+	height: 150px;
+}
+.Bakansii_bloc1_k1{
+	height: 145px;
+	width: 334px;
+	background-color: #dedcdc;
+	border-radius: 5px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.Bakansii_bloc1_k2{
+	height: 145px;
+	width: 334px;
+	background-color: #dedcdc;
+	border-radius: 5px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: -50px;
+}
+.Bakansii_bloc1_k1_text{
+	height: 140px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.Bakansii_bloc1_k1_text_p1{
+	font-size: 18px;
+	font-family: Roboto;
+	color: #000;
+	font-weight: bold;
+}
+.Bakansii_bloc1_k1_text_p2{
+	font-weight: normal;
+	color: #000;
+	margin-top: 5px;
+}
+.Bakansii_bloc1_k1_text_knopo4ki{
+	height: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+}
+.Bakansii_bloc1_k1_text_knopo4ki a button{
+	background-color: #19547a;
+	padding: 9px 16px;
+	border-radius: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.Bakansii_bloc1_k1_text_knopo4ki label{
+	background-color: #19547a;
+	padding: 9px 16px;
+	border-radius: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+input {
+	visibility: hidden;
+}
+.popup{
+	display: flex;
+	position: fixed;
+	top: 5000px;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background-color: #fff;
+	color: #000;
+	transition: .2s ease;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	visibility: hidden;
+}
+#modal:checked ~ .popup{
+	opacity: 1;
+	visibility: visible;
+	top: 0px;
+}
+.clouse{
+	position: absolute;
+	top: 0;
+	right: -10px;
+}
+.modal_btn{
+	display: flex;
+	align-items: center;
+	position: absolute;
+	bottom: 65px;
+	left: 25%;	
+}
+.modal_btn img{
+	padding: 0px 5px 0px 0px;
+}
+.popup_text{
+	display: flex;
+	height: 100%;
+	width: 55%;
+	flex-direction: column;
+}
+.popup_text_p1{
+	font-size: 24px;
+	font-family: Roboto;
+	margin-top: 100px;	
+	font-weight: bold;
+	color: #000;
+}
+.popup_text_p2{
+	font-size: 18px;
+	font-family: Roboto;
+	margin-top: 25px;	
+	color: #000;	
+}
+.popup_text_p3{
+	color: #18FFFD;
+	border-bottom: 1px solid #000;
+	width: 150px;
+	white-space: nowrap;
+}
+.popup_text ul,li{
+	list-style: square;
+	display: flex;
+	flex-direction: column;
+	color: #000;
+	align-items: flex-start;
+	margin-top: 5px;
+}
+.popup_text_p4{
+	margin-bottom: 25px;
+}
+.Bakansii_bloc1_p1, .Bakansii_bloc1_p2{
+	color: #000;
+}
+.Bakansii_bloc1_opstup{
+	margin-top: 70px;
+}
+.banaksii_foter{
+	height: 60px;
+	background-color: #19547a;
+	margin-top: 85px;
+}
+.section_footer{
+	height: 285px;
+	display: flex;
+	margin-bottom: 100px;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.section_footer_text{
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	height: 100%;
+}
+.section_footer_p1{
+	font-size: 24px;
+	font-family: Roboto;
+	color: #de6d2f;
+	margin-bottom: 23px;
+}
+.section_footer_p2{
+	font-size: 18px;
+	font-family: Roboto;	
+	color: #0000ff;
+}
+.section_footer_footer{
+	background-color: #043c60;
+	height: 20px;
+	width: 100%;	
+}
+.Ssilka{
+	color: #0000ff;
+}
